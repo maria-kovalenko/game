@@ -4282,6 +4282,7 @@ input:focus {
     padding: 0 7px;
     gap: initial;
     padding-top: 26px;
+    grid-template-rows: auto;
   }
 
   .index-box .posts__col.posts__col-first {
@@ -4320,10 +4321,7 @@ input:focus {
     margin-left: 0;
   }
 
-  .post-link.post-link--size {
-    width: 100%;
-    height: auto;
-  }
+
 }
 
 @media (max-width: 479px) {
