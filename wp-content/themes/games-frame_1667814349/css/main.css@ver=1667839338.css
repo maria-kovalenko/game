@@ -4282,7 +4282,7 @@ input:focus {
     padding: 0 7px;
     gap: initial;
     padding-top: 26px;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
   }
 
   .index-box .posts__col.posts__col-first {
