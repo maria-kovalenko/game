@@ -3490,7 +3490,8 @@ input:focus {
 
 @media (max-width: 767px) {
   .index-box {
-    grid-template-columns: repeat(auto-fit, 25%);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
     margin-right: 0;
   }
 
@@ -3523,7 +3524,8 @@ input:focus {
 
 @media (max-width: 500px) {
   .index-box {
-    grid-template-columns: repeat(auto-fit, 33%);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
     margin-right: 0;
   }
 
@@ -4285,7 +4287,7 @@ input:focus {
     padding: 0 7px;
     gap: initial;
     padding-top: 26px;
-    grid-template-rows: auto;
+
   }
 
   .index-box .posts__col.posts__col-first {
