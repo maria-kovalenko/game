@@ -4319,6 +4319,11 @@ input:focus {
     margin-right: 0;
     margin-left: 0;
   }
+
+  .post-link.post-link--size {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 479px) {
