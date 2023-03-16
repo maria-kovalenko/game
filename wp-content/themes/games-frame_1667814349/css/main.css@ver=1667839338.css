@@ -4220,6 +4220,8 @@ input:focus {
 
 @media (max-width: 985px) {
   .menu {
+    position: absolute;
+    visibility: hidden;
     display: none;
   }
 
