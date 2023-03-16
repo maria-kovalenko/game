@@ -4254,11 +4254,11 @@ input:focus {
     margin-bottom: 15px;
   }
 
-  .index-page .box-title {
+  /* .index-page .box-title {
     position: absolute;
     visibility: hidden;
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 767px) {
@@ -4288,7 +4288,7 @@ input:focus {
     padding: 0 7px;
     gap: initial;
     padding-top: 26px;
-    grid-template-rows: auto;
+    /* grid-template-rows: auto; */
   }
 
   .index-box .posts__col.posts__col-first {
@@ -4308,10 +4308,10 @@ input:focus {
     margin-bottom: 14px;
   }
 
-  .post-link.post-link--size {
+  /* .post-link.post-link--size {
     width: 100%;
     height: auto;
-  }
+  } */
 
 
   .content-box {
