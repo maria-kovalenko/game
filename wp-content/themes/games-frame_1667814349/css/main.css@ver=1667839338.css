@@ -4219,6 +4219,11 @@ input:focus {
 }
 
 @media (max-width: 985px) {
+  .section-body {
+    min-height: auto;
+    display: block;
+  }
+
   .menu {
     position: absolute;
     visibility: hidden;
