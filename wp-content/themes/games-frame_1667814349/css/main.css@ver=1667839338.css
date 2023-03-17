@@ -4261,6 +4261,11 @@ input:focus {
 }
 
 @media (max-width: 767px) {
+  .section-body.index-page {
+    min-height: auto;
+    display: block;
+  }
+
   .index-box-logo {
     margin-bottom: 14px;
   }
