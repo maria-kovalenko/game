@@ -4301,7 +4301,6 @@ input:focus {
   .index-box .posts__col {
     padding: 0 7px;
     padding-bottom: 14px;
-    height: auto;
   }
 
   .posts__col.index-box__col-box {
@@ -4311,10 +4310,10 @@ input:focus {
     margin-bottom: 14px;
   }
 
-  /* .post-link.post-link--size {
-    width: 100%;
-    height: auto !important;
-  } */
+  .post-link.post-link--size img {
+
+    max-height: 125px;
+  }
 
 
   .content-box {
