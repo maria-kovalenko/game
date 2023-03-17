@@ -3107,7 +3107,7 @@ html.w-mod-js *[data-ix="in-bgv"] {
 
   .post-link.post-link--size {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
   .row-cat {
@@ -4301,6 +4301,7 @@ input:focus {
   .index-box .posts__col {
     padding: 0 7px;
     padding-bottom: 14px;
+    height: auto;
   }
 
   .posts__col.index-box__col-box {
